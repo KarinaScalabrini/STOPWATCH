@@ -1,0 +1,72 @@
+
+    body{
+        background-image:url(./corrida.jpg);
+        background-repeat: no-repeat;
+        background-position:80% 10%;
+        background-size: cover;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding:10%;
+        
+        
+    }
+    .box{
+        min-width:100%;
+        display:flex;
+        justify-content: space-around;
+    }
+    .container{
+        background:rgba(255, 255, 255, 0.614);
+        max-height:30vh;
+        min-height:30vh;
+        max-width:50vw;
+        min-width:50vw;
+        position:relative;
+        border-radius:8px;
+        display:block;
+        justify-content:space-around;
+        box-sizing: border-box;
+        padding:5%;
+        box-shadow: 2px 3px 10px 1px black;
+    }
+  
+    .green, .red, .yellow{
+        background: #fdfdfef6;
+        color:black;
+        font-size: 20px;
+        font-weight: 700;
+        border-radius:8px;
+        border:1px solid #C0C0C0;
+        max-width:12vw;
+        min-width:12vw;
+        max-height:10vh;
+        min-height:10vh;
+        justify-content: center;
+        position:relative;
+        box-shadow: 1px 1px 6px 1px #808080;
+    }
+    .red:hover{
+        box-shadow:1px 1px 6px 1px black;
+        color:rgb(155, 1, 1)
+    }
+    .green:hover{
+        box-shadow:1px 1px 6px 1px black;
+        color:rgb(19, 107, 5);
+    }
+    .yellow:hover{
+        box-shadow:1px 1px 6px 1px black;
+        color:rgb(209, 209, 6);
+    }
+    .counter{
+        text-align: center;
+    }
+    #counter{
+        color:rgb(19, 107, 5);
+        position:relative;
+        font-size:40px;
+    }
+    button {
+        cursor:pointer;
+    }
